@@ -194,161 +194,86 @@
 <body class="body" style="color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:12px; background:#000000; "
 alink="#FF0000" link="#FF0000" bgcolor="#000000" text="#ffffff" yahoo="fix">
 
-	<center>
-		<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable"
-			style="table-layout: fixed;max-width:100% !important;width: 100% !important;min-width: 100% !important;">
+		<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
 			<tr>
 				<td align="center" valign="top" id="bodyCell">
-				
-					<!-- EMAIL BODY // -->
-					<!--
-							The table "emailBody" is the email's container.
-							Its width can be set to 100% for a color band
-							that spans the width of the page.
-						-->
-					<table border="0" cellpadding="0" cellspacing="0" width="500" id="emailBody">
-
-						<!-- MODULE ROW // -->
-						<!--
-								To move or duplicate any of the design patterns
-								in this email, simply move or copy the entire
-								MODULE ROW section for each content block.
-							-->
+					<table width="100%" border="0" cellpadding="0" cellspacing="0">
+						<!--header-->
 						<tr>
-							<td align="center" valign="top">
-								<!-- CENTERING TABLE // -->
-								<!--
-										The centering table keeps the content
-										tables centered in the emailBody table,
-										in case its width is set to 100%.
-									-->
-								<table border="0" cellpadding="0" cellspacing="0" width="100%" style="color:#FFFFFF;" >
+							<td style="font-family: Helvetica, Arial, sans-serif; font-size: 0; line-height: 0; color: #000000;">
+								${ctx.preheader()}
+								<span>&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+									&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;</span>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" style="padding-top: 30px;">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
 									<tr>
-										<td align="center" valign="top">
-											<!-- FLEXIBLE CONTAINER // -->
-											<!--
-													The flexible container has a set width
-													that gets overridden by the media query.
-													Most content tables within can then be
-													given 100% widths.
-												-->
-											<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
-												<tr>
-													<td align="center" valign="top" width="500" class="flexibleContainerCell">
-
-														<!-- CONTENT TABLE // -->
-														<!--
-															The content table is the first element
-																that's entirely separate from the structural
-																framework of the email.
-															-->
-														<table border="0" cellpadding="30" cellspacing="0" width="100%">
-															<tr>
-																<td align="center" valign="top" class="logoContent">
-																	<img src="http://avatars.mds.yandex.net/get-market-lilucrm/1532132/1b5d8b19-3c5c-4e24-9b50-0bcc6c22dd47/orig"
-																			style="vertical-align: middle; border: none;" width="165" height="22" alt="Яндекс Маркет" />
-																	<img
-																	src="http://avatars.mds.yandex.net/get-market-lilucrm/762179/cc800f4f-497b-4e2f-bc23-ffe57cbc2347/orig"
-																		style="max-width: 600px; min-width: 100%; height: auto; max-height: 145px; padding: 40px 0 20px;">
-																	</img>
-																	<h1 style="font-size: 36px;
-																	line-height: 36px;
-																	font-family: Helvetica, Arial, sans-serif;
-																	color: #ffffff;
-																	text-align: center;
-																	hyphens: none; width: 300px">Угадаем ваши
-																		желания с&nbsp;5&nbsp;нот</h1>
-																	<div
-																		style="text-align:center;font-size: 18px;
-																		line-height: 120%;
-																		text-align: center;
-																		color: #FFFFFF;
-																		flex: none;
-																		order: 2;
-																		flex-grow: 0;
-																		width: 400px;
-																		">
-																		Стать рок-звездой, записать альбом, собрать стадионы, выгодно купить музыкальные инструменты на&nbsp;Маркете. Что-то ещё?</div>
-																</td>
-															</tr>
-														</table>
-														<!-- // CONTENT TABLE -->
-
-													</td>
-												</tr>
-											</table>
-											<!-- // FLEXIBLE CONTAINER -->
+										<td align="center" style="padding-top: 12px; padding-bottom: 12px;">
+											<img src="http://avatars.mds.yandex.net/get-market-lilucrm/1532132/1b5d8b19-3c5c-4e24-9b50-0bcc6c22dd47/orig" style="vertical-align: middle; border: none;" width="165" height="22" alt="Яндекс Маркет" />																	
+										</td>
+									</tr>
+									<tr>
+										<td align="center" style="padding-top: 12px; padding-bottom: 12px;">
+											<img src="http://avatars.mds.yandex.net/get-market-lilucrm/762179/cc800f4f-497b-4e2f-bc23-ffe57cbc2347/orig" style="min-width: 300px; height: auto; max-height: 222px;"> </img>
+										</td>
+									</tr>
+									<tr align="center">
+										<td style="padding-top: 12px; padding-bottom: 12px; ">
+											<strong style="font-size: 36px;
+											line-height: 36px;
+											font-family: Helvetica, Arial, sans-serif;
+											color: #ffffff;
+											text-align: center;
+											hyphens: none;">Угадаем ваши <br>
+												желания с&nbsp;5&nbsp;нот</strong>
+										</td>
+									</tr>
+									<tr align="center">
+										<td style="padding-top: 12px; padding-bottom: 12px;">
+											<span
+											style="text-align:center;font-size: 18px;
+											line-height: 120%;
+											text-align: center;
+											color: #FFFFFF;
+											flex: none;
+											order: 2;
+											flex-grow: 0;
+											">
+											Стать рок-звездой, записать альбом, собрать <br> стадионы, выгодно купить музыкальные <br> инструменты на&nbsp;Маркете. Что-то ещё?</span>
 										</td>
 									</tr>
 								</table>
-								<!-- // CENTERING TABLE -->
 							</td>
 						</tr>
-						<!-- // MODULE ROW -->
 
-						<!-- MODULE ROW // -->
-						<tr>
-							<td align="center" valign="top">
-								<!-- CENTERING TABLE // -->
-								<table border="0" cellpadding="0" cellspacing="0" width="100%">
-									<tr style="padding-top:0;">
-										<td align="center" valign="top">
-											<!-- FLEXIBLE CONTAINER // -->
-											<table border="0" cellpadding="30" cellspacing="0" width="500" class="flexibleContainer">
-												<tr>
-													<td style="padding-top:0;" align="center" valign="top" width="500"
-														class="flexibleContainerCell">
-
-														<!-- CONTENT TABLE // -->
-														<table border="0" cellpadding="0" cellspacing="0" width="30%" class="emailButton">
-															<tr>
-																<td align="center" valign="middle" class="buttonContent"
-																	style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; 
-																	background: #FED42B;
-																	border-radius: 4px;
-																	flex: none;
-																	order: 1;
-																	flex-grow: 0;
-																	margin: 24px 0px;
-																	border-radius: 5px;
-																	">
-																	<a style="font-size: 16px;
-																	line-height: 20px;
-																	color: #000000;
-																	text-align:center;
-																	text-decoration: none;
-																	"
-																		href="#" target="_blank"><strong>Все и&nbsp;сразу</strong></a>
-																</td>
-															</tr>
-														</table>
-														<!-- // CONTENT TABLE -->
-
-													</td>
-												</tr>
-											</table>
-											<!-- // FLEXIBLE CONTAINER -->
-										</td>
-									</tr>
-								</table>
-								<!-- // CENTERING TABLE -->
+					  <tr>
+							<td align="center"
+								style="padding-bottom: 40px; padding-top: 20px; font-size: 16px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; color: #000000;">
+								<!--[if mso]>
+							<v:roundrect href="https://market.yandex.ru/special/rock_stars_land" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:44px;v-text-anchor:middle;width:125px;" arcsize="10%" stroke="f" fillcolor="#FED42B">
+								<w:anchorlock/>
+								<center>
+							<![endif]-->
+								<a href="https://market.yandex.ru/special/rock_stars_land" target="_blank"
+									style="background-color:#FED42B;border-radius:4px;color:#000000;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:44px;text-align:center;text-decoration:none;width:125px;-webkit-text-size-adjust:none;"><strong>Всё
+										и сразу</strong></a>
+								<!--[if mso]>
+							</center>
+							</v:roundrect>
+							<![endif]-->
 							</td>
 						</tr>
-						<!-- // MODULE ROW -->
-
-						<!-- MODULE ROW // -->
+					<!--MODULE ROW // -->
 						<tr>
 							<td align="center" valign="top">
-								<!-- CENTERING TABLE // -->
 								<table border="0" cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<td align="center" valign="top">
-											<!-- FLEXIBLE CONTAINER // -->
 											<table border="0" cellpadding="30" cellspacing="0" width="500" class="flexibleContainer">
 												<tr>
 													<td valign="top" width="500" class="flexibleContainerCell">
-
-														<!-- CONTENT TABLE // -->
 														<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
 															<tr>
 																<td align="left" valign="top" class="flexibleContainerBox">
@@ -366,25 +291,22 @@ alink="#FF0000" link="#FF0000" bgcolor="#000000" text="#ffffff" yahoo="fix">
 																			</td>
 																		</tr>
 																		<tr>
-																			<td align="center"  valign="middle" class="buttonContent"
-																				style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; 
-																				background: #FED42B;
-																				border-radius: 4px;
-																				flex: none;
-																				order: 1;
-																				flex-grow: 0;
-																				margin: 24px 0px;
-																				border-radius: 5px;
-																				">
-																				<a style="font-size: 16px;
-																				line-height: 20px;
-																				color: #000000;
-																				text-align:center;
-																				text-decoration: none;
-																				"
-																					href="#" target="_blank"><strong>Подготовиться</strong></a>
-																			</td>
-																		</tr>
+                                      <td align="left"
+                                        style="font-size: 16px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; color: #000000;">
+                                        <!--[if mso]>
+                                      <v:roundrect href="https://market.yandex.ru/catalog--udarnye-ustanovki-i-instrumenty/16732563/list?cvredirect=3&hid=16732562&track=srch_ddl&onstock=0&local-offers-first=0" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:44px;v-text-anchor:middle;width:154px;" arcsize="10%" stroke="f" fillcolor="#FED42B">
+                                        <w:anchorlock/>
+                                        <center>
+                                      <![endif]-->
+                                        <a href="https://market.yandex.ru/catalog--udarnye-ustanovki-i-instrumenty/16732563/list?cvredirect=3&hid=16732562&track=srch_ddl&onstock=0&local-offers-first=0"
+                                          target="_blank"
+                                          style="background-color:#FED42B;border-radius:4px;color:#000000;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:44px;text-align:center;text-decoration:none;width:154px;-webkit-text-size-adjust:none;"><strong>Подготовиться</strong></a>
+                                        <!--[if mso]>
+                                      </center>
+                                      </v:roundrect>
+                                      <![endif]-->
+                                      </td>
+                                    </tr>
 																	</table>
 																</td>
 																<td align="right" valign="middle" class="flexibleContainerBox">
@@ -418,9 +340,9 @@ alink="#FF0000" link="#FF0000" bgcolor="#000000" text="#ffffff" yahoo="fix">
 								<!-- // CENTERING TABLE -->
 							</td>
 						</tr>
-						<!-- // MODULE ROW -->
+					<!--End MODULE ROW // -->	
 
-						<!-- MODULE ROW // -->
+					<!--MODULE ROW // -->
 						<tr>
 							<td align="center" valign="top">
 								<!-- CENTERING TABLE // -->
@@ -460,23 +382,102 @@ alink="#FF0000" link="#FF0000" bgcolor="#000000" text="#ffffff" yahoo="fix">
 																			</td>
 																		</tr>
 																		<tr>
-																			<td align="center"  valign="middle" class="buttonContent"
-																				style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; 
-																				background: #FED42B;
-																				border-radius: 4px;
-																				flex: none;
-																				order: 1;
-																				flex-grow: 0;
-																				margin: 24px 0px;
-																				border-radius: 5px;
-																				">
-																				<a style="font-size: 16px;
-																				line-height: 20px;
-																				color: #000000;
-																				text-align:center;
-																				text-decoration: none;
-																				"
-																					href="#" target="_blank"><strong>Ударить по&nbsp;струнам</strong></a>
+                                      <td align="left"
+                                        style="font-size: 16px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; color: #000000;">
+                                        <!--[if mso]>
+                                      <v:roundrect href="https://market.yandex.ru/catalog--elektrogitary-i-bas-gitary/55286/list?glfilter=17488736%3A17488749%2C17488744%2C17488747&hid=91244&lr=213&onstock=1&local-offers-first=0" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:44px;v-text-anchor:middle;width:193px;" arcsize="10%" stroke="f" fillcolor="#FED42B">
+                                        <w:anchorlock/>
+                                        <center>
+                                      <![endif]-->
+                                        <a href="https://market.yandex.ru/catalog--elektrogitary-i-bas-gitary/55286/list?glfilter=17488736%3A17488749%2C17488744%2C17488747&hid=91244&lr=213&onstock=1&local-offers-first=0"
+                                          target="_blank"
+                                          style="background-color:#FED42B;border-radius:4px;color:#000000;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:44px;text-align:center;text-decoration:none;width:193px;-webkit-text-size-adjust:none;"><strong>Ударить
+                                            по струнам</strong></a>
+                                        <!--[if mso]>
+                                      </center>
+                                      </v:roundrect>
+                                      <![endif]-->
+                                      </td>
+                                    </tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+														<!-- // CONTENT TABLE -->
+
+													</td>
+												</tr>
+											</table>
+											<!-- // FLEXIBLE CONTAINER -->
+										</td>
+									</tr>
+								</table>
+								<!-- // CENTERING TABLE -->
+							</td>
+						</tr>
+					<!--End MODULE ROW // -->	
+
+					<!--MODULE ROW // -->
+						<tr>
+							<td align="center" valign="top">
+								<!-- CENTERING TABLE // -->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td align="center" valign="top">
+											<!-- FLEXIBLE CONTAINER // -->
+											<table border="0" cellpadding="30" cellspacing="0" width="500" class="flexibleContainer">
+												<tr>
+													<td valign="top" width="500" class="flexibleContainerCell">
+
+														<!-- CONTENT TABLE // -->
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+															<tr>
+																<td align="left" valign="top" class="flexibleContainerBox">
+																	<table border="0" cellpadding="0" cellspacing="0" width="210"
+																		style="max-width: 100%;">
+																		<tr>
+																			<td align="left" class="textContent">
+																				<h3
+																					style="color: #ffffff;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">
+																					<strong>МИлые и&nbsp;компактные</strong>
+																				</h3>
+																				<div
+																					style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#ffffff;line-height:135%;padding-top: 10px; padding-bottom: 10px;">
+																					Укулеле</div>												
+																			</td>
+																		</tr>
+																<tr>
+                                      <td align="left"
+                                        style="font-size: 16px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; color: #000000;">
+                                        <!--[if mso]>
+                                      <v:roundrect href="https://market.yandex.ru/catalog--ukulele/70933/list?hid=15085725&lr=213&promo-type=discount&onstock=1&local-offers-first=0" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:44px;v-text-anchor:middle;width:106px;" arcsize="10%" stroke="f" fillcolor="#FED42B">
+                                        <w:anchorlock/>
+                                        <center>
+                                      <![endif]-->
+                                        <a href="https://market.yandex.ru/catalog--ukulele/70933/list?hid=15085725&lr=213&promo-type=discount&onstock=1&local-offers-first=0"
+                                          target="_blank"
+                                          style="background-color:#FED42B;border-radius:4px;color:#000000;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:44px;text-align:center;text-decoration:none;width:106px;-webkit-text-size-adjust:none;"><strong>Наиграть</strong></a>
+                                        <!--[if mso]>
+                                      </center>
+                                      </v:roundrect>
+                                      <![endif]-->
+                                      </td>
+                                    </tr>
+																	</table>
+																</td>
+																<td align="right" valign="middle" class="flexibleContainerBox">
+																	<table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0"
+																		width="210" style="max-width: 100%; margin-left: 50px;">
+																		<tr>
+																			<td align="left" class="textContent">
+																				<img src="http://avatars.mds.yandex.net/get-market-lilucrm/1532132/f7193456-4723-4e4e-8d94-3ec2e553a471/orig" width="500"
+																				class="flexibleImage" style="display: block;
+																				border: none;
+																				width: 100%;
+																				min-width: 300px;
+																				height: auto;
+																				max-height: 222px;" alt="Text"
+																				title="Text" />
 																			</td>
 																		</tr>
 																	</table>
@@ -495,170 +496,83 @@ alink="#FF0000" link="#FF0000" bgcolor="#000000" text="#ffffff" yahoo="fix">
 								<!-- // CENTERING TABLE -->
 							</td>
 						</tr>
-						<!-- // MODULE ROW -->
+					<!--End MODULE ROW // -->	
+					
+					<!--MODULE ROW // -->
+						<tr>
+							<td align="center" valign="top">
+								<!-- CENTERING TABLE // -->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td align="center" valign="top">
+											<!-- FLEXIBLE CONTAINER // -->
+											<table border="0" cellpadding="30" cellspacing="0" width="500" class="flexibleContainer">
+												<tr>
+													<td valign="top" width="500" class="flexibleContainerCell">
 
-							<!-- MODULE ROW // -->
-							<tr>
-								<td align="center" valign="top">
-									<!-- CENTERING TABLE // -->
-									<table border="0" cellpadding="0" cellspacing="0" width="100%">
-										<tr>
-											<td align="center" valign="top">
-												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="500" class="flexibleContainer">
-													<tr>
-														<td valign="top" width="500" class="flexibleContainerCell">
-	
-															<!-- CONTENT TABLE // -->
-															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
-																<tr>
-																	<td align="left" valign="top" class="flexibleContainerBox">
-																		<table border="0" cellpadding="0" cellspacing="0" width="210"
-																			style="max-width: 100%;">
-																			<tr>
-																				<td align="left" class="textContent">
-																					<h3
-																						style="color: #ffffff;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">
-																						<strong>МИлые и&nbsp;компактные</strong>
-																					</h3>
-																					<div
-																						style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#ffffff;line-height:135%;padding-top: 10px; padding-bottom: 10px;">
-																						Укулеле</div>												
-																				</td>
-																			</tr>
-																			<tr>
-																				<td align="center"  valign="middle" class="buttonContent"
-																					style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; 
-																					background: #FED42B;
-																					border-radius: 4px;
-																					flex: none;
-																					order: 1;
-																					flex-grow: 0;
-																					margin: 24px 0px;
-																					border-radius: 5px;
-																					">
-																					<a style="font-size: 16px;
-																					line-height: 20px;
-																					color: #000000;
-																					text-align:center;
-																					text-decoration: none;
-																					"
-																						href="#" target="_blank"><strong>Наиграть</strong></a>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																	<td align="right" valign="middle" class="flexibleContainerBox">
-																		<table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0"
-																			width="210" style="max-width: 100%; margin-left: 50px;">
-																			<tr>
-																				<td align="left" class="textContent">
-																					<img src="http://avatars.mds.yandex.net/get-market-lilucrm/1532132/f7193456-4723-4e4e-8d94-3ec2e553a471/orig" width="500"
-																					class="flexibleImage" style="display: block;
-																					border: none;
-																					width: 100%;
-																					min-width: 300px;
-																					height: auto;
-																					max-height: 222px;" alt="Text"
-																					title="Text" />
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-															<!-- // CONTENT TABLE -->
-	
-														</td>
-													</tr>
-												</table>
-												<!-- // FLEXIBLE CONTAINER -->
-											</td>
-										</tr>
-									</table>
-									<!-- // CENTERING TABLE -->
-								</td>
-							</tr>
-							<!-- // MODULE ROW -->
+														<!-- CONTENT TABLE // -->
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+															<tr>
+																<td align="left" valign="top" class="flexibleContainerBox">
+																	<table border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%; margin-right: 50px;">
+																		<tr>
+																			<td align="left" class="textContent">
+																				<img src="http://avatars.mds.yandex.net/get-market-lilucrm/369084/f6571923-bb45-41c5-8fb7-cf1e897d06ed/orig" width="210"
+																					class="flexibleImage" style="min-width:300px;" alt="Text" title="Text" />
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+																<td align="right" valign="middle" class="flexibleContainerBox">
+																	<table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0"
+																		width="210" style="max-width:100%;">
+																		<tr>
+																			<td align="left" class="textContent">
+																				<h3
+																					style="color: #ffffff;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">
+																					<strong>ФАнтастический звук</strong>
+																				</h3>
+																				<div
+																					style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#ffffff;line-height:135%;padding-top: 10px; padding-bottom: 10px;">
+																					Из-под клавиш синтезатора.</div>	
+																			</td>
+																		</tr>
+																		<tr>
+                                      <td align="left"
+                                        style="font-size: 16px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; color: #000000;">
+                                        <!--[if mso]>
+                                      <v:roundrect href="https://market.yandex.ru/catalog--sintezatory-i-midi-klaviatury/18071661/list?glfilter=6845219%3A12112607%2C12112608%2C12112609&hid=91248&onstock=0&local-offers-first=0" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:44px;v-text-anchor:middle;width:100px;" arcsize="10%" stroke="f" fillcolor="#FED42B">
+                                        <w:anchorlock/>
+                                        <center>
+                                      <![endif]-->
+                                        <a href="https://market.yandex.ru/catalog--sintezatory-i-midi-klaviatury/18071661/list?glfilter=6845219%3A12112607%2C12112608%2C12112609&hid=91248&onstock=0&local-offers-first=0"
+                                          target="_blank"
+                                          style="background-color:#FED42B;border-radius:4px;color:#000000;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:44px;text-align:center;text-decoration:none;width:100px;-webkit-text-size-adjust:none;"><strong>Сыграть</strong></a>
+                                        <!--[if mso]>
+                                      </center>
+                                      </v:roundrect>
+                                      <![endif]-->
+                                      </td>
+                                    </tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+														<!-- // CONTENT TABLE -->
 
-							<!-- MODULE ROW // -->
-							<tr>
-								<td align="center" valign="top">
-									<!-- CENTERING TABLE // -->
-									<table border="0" cellpadding="0" cellspacing="0" width="100%">
-										<tr>
-											<td align="center" valign="top">
-												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="500" class="flexibleContainer">
-													<tr>
-														<td valign="top" width="500" class="flexibleContainerCell">
-	
-															<!-- CONTENT TABLE // -->
-															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
-																<tr>
-																	<td align="left" valign="top" class="flexibleContainerBox">
-																		<table border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%; margin-right: 50px;">
-																			<tr>
-																				<td align="left" class="textContent">
-																					<img src="http://avatars.mds.yandex.net/get-market-lilucrm/369084/f6571923-bb45-41c5-8fb7-cf1e897d06ed/orig" width="210"
-																						class="flexibleImage" style="min-width:300px;" alt="Text" title="Text" />
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																	<td align="right" valign="middle" class="flexibleContainerBox">
-																		<table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0"
-																			width="210" style="max-width:100%;">
-																			<tr>
-																				<td align="left" class="textContent">
-																					<h3
-																						style="color: #ffffff;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">
-																						<strong>ФАнтастический звук</strong>
-																					</h3>
-																					<div
-																						style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#ffffff;line-height:135%;padding-top: 10px; padding-bottom: 10px;">
-																						Из-под клавиш синтезатора.</div>	
-																				</td>
-																			</tr>
-																			<tr>
-																				<td align="center"  valign="middle" class="buttonContent"
-																					style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; 
-																					background: #FED42B;
-																					border-radius: 4px;
-																					flex: none;
-																					order: 1;
-																					flex-grow: 0;
-																					margin: 24px 0px;
-																					border-radius: 5px;
-																					">
-																					<a style="font-size: 16px;
-																					line-height: 20px;
-																					color: #000000;
-																					text-align:center;
-																					text-decoration: none;
-																					"
-																						href="#" target="_blank"><strong>Сыграть</strong></a>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-															<!-- // CONTENT TABLE -->
-	
-														</td>
-													</tr>
-												</table>
-												<!-- // FLEXIBLE CONTAINER -->
-											</td>
-										</tr>
-									</table>
-									<!-- // CENTERING TABLE -->
-								</td>
-							</tr>
-							<!-- // MODULE ROW -->
+													</td>
+												</tr>
+											</table>
+											<!-- // FLEXIBLE CONTAINER -->
+										</td>
+									</tr>
+								</table>
+								<!-- // CENTERING TABLE -->
+							</td>
+						</tr>
+					<!--End MODULE ROW // -->
 
-								<!-- MODULE ROW // -->
+					<!--MODULE ROW // -->
 						<tr>
 							<td align="center" valign="top">
 								<!-- CENTERING TABLE // -->
@@ -688,25 +602,22 @@ alink="#FF0000" link="#FF0000" bgcolor="#000000" text="#ffffff" yahoo="fix">
 																			</td>
 																		</tr>
 																		<tr>
-																			<td align="center"  valign="middle" class="buttonContent"
-																				style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; 
-																				background: #FED42B;
-																				border-radius: 4px;
-																				flex: none;
-																				order: 1;
-																				flex-grow: 0;
-																				margin: 24px 0px;
-																				border-radius: 5px;
-																				">
-																				<a style="font-size: 16px;
-																				line-height: 20px;
-																				color: #000000;
-																				text-align:center;
-																				text-decoration: none;
-																				"
-																					href="#" target="_blank"><strong>Подобрать</strong></a>
-																			</td>
-																		</tr>
+                                      <td align="left"
+                                        style="font-size: 16px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; color: #000000;">
+                                        <!--[if mso]>
+                                      <v:roundrect href="https://market.yandex.ru/catalog--klassicheskie-gitary/17478557/list?cvredirect=3&hid=91243&track=srch_ddl&onstock=0&local-offers-first=0" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:44px;v-text-anchor:middle;width:120px;" arcsize="10%" stroke="f" fillcolor="#FED42B">
+                                        <w:anchorlock/>
+                                        <center>
+                                      <![endif]-->
+                                        <a href="https://market.yandex.ru/catalog--klassicheskie-gitary/17478557/list?cvredirect=3&hid=91243&track=srch_ddl&onstock=0&local-offers-first=0"
+                                          target="_blank"
+                                          style="background-color:#FED42B;border-radius:4px;color:#000000;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:44px;text-align:center;text-decoration:none;width:120px;-webkit-text-size-adjust:none;"><strong>Подобрать</strong></a>
+                                        <!--[if mso]>
+                                      </center>
+                                      </v:roundrect>
+                                      <![endif]-->
+                                      </td>
+                                    </tr>
 																	</table>
 																</td>
 																<td align="right" valign="middle" class="flexibleContainerBox">
@@ -740,70 +651,33 @@ alink="#FF0000" link="#FF0000" bgcolor="#000000" text="#ffffff" yahoo="fix">
 								<!-- // CENTERING TABLE -->
 							</td>
 						</tr>
-						<!-- // MODULE ROW -->
+					<!--End MODULE ROW // -->
 
-
-						<!--Pre End MODULE ROW // -->
+					<!--Pre footer MODULE ROW // -->
 						<tr>
-							<td align="center" valign="top">
-								<!-- CENTERING TABLE // -->
-								<table border="0" cellpadding="0" cellspacing="0" width="100%">
-									<tr>
-										<td align="center" valign="top">
-											<!-- FLEXIBLE CONTAINER // -->
-											<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
-												<tr>
-													<td align="center" valign="top" width="500" class="flexibleContainerCell">
-														<table border="0" cellpadding="30" cellspacing="0" width="100%">
-															<tr>
-																<td align="center" valign="top">
-
-																	<!-- CONTENT TABLE // -->
-																	<table border="0" cellpadding="0" cellspacing="0" width="40%">
-																		<tr>
-																			<td align="center"  valign="middle" class="buttonContent"
-																			style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; 
-																			background: #FED42B;
-																			border-radius: 4px;
-																			flex: none;
-																			order: 1;
-																			flex-grow: 0;
-																			margin: 24px 0px;
-																			border-radius: 5px;
-																			">
-																			<a style="font-size: 16px;
-																			line-height: 20px;
-																			color: #000000;
-																			text-align:center;
-																			text-decoration: none;
-																			"
-																				href="#" target="_blank"><strong>Ждите концерты</strong></a>
-																		</td>
-																		</tr>
-																	</table>
-																	<!-- // CONTENT TABLE -->
-
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-											<!-- // FLEXIBLE CONTAINER -->
-										</td>
-									</tr>
-								</table>
-								<!-- // CENTERING TABLE -->
+							<td align="center"
+								style="padding-bottom: 40px; font-size: 16px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; color: #000000;">
+								<!--[if mso]>
+							<v:roundrect href="https://market.yandex.ru/special/rock_stars_land" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:44px;v-text-anchor:middle;width:169px;" arcsize="10%" stroke="f" fillcolor="#FED42B">
+								<w:anchorlock/>
+								<center>
+							<![endif]-->
+								<a href="https://market.yandex.ru/special/rock_stars_land" target="_blank"
+									style="background-color:#FED42B;border-radius:4px;color:#000000;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:44px;text-align:center;text-decoration:none;width:169px;-webkit-text-size-adjust:none;"><strong>Ждите
+										концерты</strong></a>
+								<!--[if mso]>
+							</center>
+							</v:roundrect>
+							<![endif]-->
 							</td>
 						</tr>
-						<!-- // MODULE ROW -->
+					<!-- // Pre footer End MODULE ROW -->
 
 					</table>
 					<!-- // END -->
 
 					<!-- EMAIL FOOTER // -->
-				
-					<table border="0" cellpadding="0" cellspacing="0" width="500" id="emailFooter" style="padding-top: 50px;">
+					<table border="0" cellpadding="0" cellspacing="0" width="500" style="padding-top: 50px;">
 
 						<!-- FOOTER ROW // -->
 						<tr>
@@ -996,7 +870,6 @@ alink="#FF0000" link="#FF0000" bgcolor="#000000" text="#ffffff" yahoo="fix">
 				</td>
 			</tr>
 		</table>
-	</center>
 </body>
 
 </html>
